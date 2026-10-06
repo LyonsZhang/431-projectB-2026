@@ -25,9 +25,9 @@ Trust us. You'll save **a lot** of time and energy if you do so.
 
 Your Project B will use the 2025 version of the analytic data from [County Health Rankings](https://www.countyhealthrankings.org/) (**CHR 2025**) for most of the work^[In Analysis 3, we will also use **CHR 2019** as you'll see]. Some prior CHR data has been part of our course, but you'll obtain, clean and manage a new data set for Project B.
 
-The key elements we'll use are found in the [Rankings Data & Documentation section](https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation) at the County Health Rankings website, specifically the National Data & Documentation section site for the 2025 County Health Rankings. Specifically, you'll need to download four files in order to get and use the data:
+The key elements we'll use are found in the [Rankings Data & Documentation section](https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation) at the County Health Rankings website, specifically the National Data & Documentation section site for the 2026 County Health Rankings. Specifically, you'll need to download four files in order to get and use the data:
 
-- [the 2025 CHR CSV Analytic Data](https://www.countyhealthrankings.org/sites/default/files/media/document/analytic_data2025.csv) (a .csv file)
+- [the 2025 CHR CSV Analytic Data](https://www.countyhealthrankings.org/sites/default/files/media/document/analytic_data2025_v3.csv) (a .csv file)
 - [the 2025 Data Dictionary](https://www.countyhealthrankings.org/sites/default/files/media/document/DataDictionary_2025.pdf) (PDF)
 - [the 2025 Technical Document](https://www.countyhealthrankings.org/sites/default/files/media/document/2025%20CHR%20CSV%20SAS%20Analytic%20Documentation.pdf)
 
@@ -91,8 +91,8 @@ chr_2025_useful <- chr_2025 |>
 
 This code should create a `chr_2025_raw` tibble with 3204 rows (observations) and 95 columns (variables). 
 
-To complete Task 1, you'll need to augment the code above to restrict the `chr_2025_raw` data to include only the **3089** rows which have "county_clustered" values of 1, since the other rows will not be used by us in this project. 
-At the end of Task 1, your `chr_2025_raw` tibble should have 3089 rows (counties) and 95 columns (variables).
+To complete Task 1, you'll need to augment the code above to restrict the `chr_2025_raw` data to include only the **3141** rows which have "county_clustered" values of 1, since the other rows will not be used by us in this project. 
+At the end of Task 1, your `chr_2025_raw` tibble should have 3141 rows (counties) and 95 columns (variables).
 
 # Data Task 2. Select six states
 
